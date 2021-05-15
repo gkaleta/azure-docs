@@ -169,10 +169,6 @@ If the cluster has Azure Hybrid Benefit enabled, the output of `az vmss show` wi
   "resourceGroup": "MC_CLUSTERNAME"
 ```
 
-## Can I use the Kubernetes Web Dashboard with Windows containers?
-
-Yes, you can use the [Kubernetes Web Dashboard][kubernetes-dashboard] to access information about Windows containers, but at this time you can't run *kubectl exec* into a running Windows container directly from the Kubernetes Web Dashboard. For more details on connecting to your running Windows container, see [Connect with RDP to Azure Kubernetes Service (AKS) cluster Windows Server nodes for maintenance or troubleshooting][windows-rdp].
-
 ## What if I need a feature that's not supported?
 
 We work hard to bring all the features you need to Windows in AKS, but if you do encounter gaps, the open-source, upstream [aks-engine][aks-engine] project provides an easy and fully customizable way of running Kubernetes in Azure, including Windows support. Be sure to check out our roadmap of features coming [AKS roadmap][aks-roadmap].
