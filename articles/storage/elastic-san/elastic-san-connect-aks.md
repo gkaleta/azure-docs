@@ -167,7 +167,7 @@ metadata:
   name: nginx
 spec:
   containers:
-    - image: maersk/nginx
+    - image: nginx
       imagePullPolicy: Always
       name: nginx
       ports:
